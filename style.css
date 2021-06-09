@@ -1,0 +1,40 @@
+html {
+}
+
+body {
+    margin: auto;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    position: sticky;
+    padding: 6px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: yellow;
+}
+
+ul li {
+    padding: 1em;
+}
+
+main {
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: auto;
+}
