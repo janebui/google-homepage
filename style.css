@@ -10,7 +10,6 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: blue;
     position: sticky;
     padding: 6px;
 }
@@ -20,7 +19,6 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: yellow;
 }
 
 ul li {
