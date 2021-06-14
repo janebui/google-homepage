@@ -6,4 +6,4 @@ google-homepage is a clone of the Google.com homepage, and one of the projects f
 
 ## Live Demo
 
-[Live Demo](https://)
+[Live Demo](https://janebui.github.io/google-homepage/)
