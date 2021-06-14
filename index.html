@@ -18,35 +18,70 @@
 <body>
     <nav>
         <ul id="left-nav">
-            <li>About</li>
-            <li>Store</li>
+            <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjr4u-y5ZfxAhVaJzQIHYtsBo4QkNQCCAI&url=https%3A%2F%2Fabout.google%2F%3Ffg%3D1%26utm_source%3Dgoogle-US%26utm_medium%3Dreferral%26utm_campaign%3Dhp-header&usg=AOvVaw13L0SpN0L7ycx9R0_i4R2S">About</a></li>
+            <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjr4u-y5ZfxAhVaJzQIHYtsBo4QpMwCCAM&url=https%3A%2F%2Fstore.google.com%2FUS%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Den-US&usg=AOvVaw0wvkRBURf91YdMQCXOelDf">Store</a></li>
         </ul>
         <ul id="right-nav">
-            <li>Gmail</li>
-            <li>Images</li>
+            <li><a href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
+            <li><a href="https://www.google.com/imghp?hl=en&ogbl">Images</a></li>
             <li>
-                <svg focusable="false" viewBox="0 0 40 40" height="40px" width="40px">
-                    <path style="fill:#5f6368" 
+                <div id="apps">
+                    <a href="#"><svg focusable="false" viewBox="0 0 24 24" width="40" height="40">
+                    <path style="fill:#5f6368"
                         d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
                     </path>
-                </svg>
-
+                </svg></a></div>
+                </div>
             </li>
-            <li><button>Sign In</button></li>
+            <li><button id="sign-in">Sign in</button></li>
         </ul>
     </nav>
     <main>
-        <img src="https://www.google.com/logos/doodles/2021/shirley-temples-93rd-birthday-6753651837108911.2-law.gif">
-        <form>
-            <input type="text">
-            <button>Google Search</button> <button>I'm Feeling Lucky</button>
-            <p>Take a look into the life of Shirley Temple</p>
+        <img id="googleimg" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <div id="search-0">
+            <div id="search-1">
+                <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="20px"
+                    width="20px">
+                    <path style="fill:#9aa0a6"
+                        d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                    </path>
+                </svg>
+                <input type="text">
+                <svg id="x" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px"
+                    width="24px">
+                    <path style="fill:#70757a"
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+
+
+
+        <button class="search-button">Google Search</button> <button class="search-button">I'm Feeling Lucky</button>
+        <p><a id="workspace"
+                href="https://www.google.com/url?q=https://blog.google/products/workspace/google-workspace-everyone%3Futm_source%3Dhpp%26utm_medium%3Dreferral%26utm_campaign%3D%26utm_content%3D%26utm_term%3D&source=hpp&id=19024768&ct=3&usg=AFQjCNFGgDg3JJ5g94MfY2th0KZEAZ2z_g&sa=X&ved=0ahUKEwizpcD54ZfxAhVkIDQIHcDSBLIQ8IcBCA8">Google
+                Workspace is now available to everyone</a></p>
         </form>
         <script src="" async defer></script>
     </main>
 
     <footer>
-
+        
+        <ul id="left-footer">
+            <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjr4u-y5ZfxAhVaJzQIHYtsBo4QkdQCCBA&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_us%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw3XLzhicA5ZZW0afDbW0l2T">Advertising</a></li>
+            <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjr4u-y5ZfxAhVaJzQIHYtsBo4QktQCCBE&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K">Business</a></li>
+            <li><a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+        </ul>
+        <ul id="central-footer">
+            <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC" height="14px"> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjr4u-y5ZfxAhVaJzQIHYtsBo4QiM8HCBI&url=https%3A%2F%2Fsustainability.google%2Fcommitments%2F%3Futm_source%3Dgooglehpfooter%26utm_medium%3Dhousepromos%26utm_campaign%3Dbottom-footer%26utm_content%3D&usg=AOvVaw33CBu8Ltt2Pn0iagTN2qxC">Carbon neutral since 2007</a></li>
+        </ul>
+        <ul id="right-footer"> 
+            <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjr4u-y5ZfxAhVaJzQIHYtsBo4Q8awCCBM&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Fhl%3Den%26fg%3D1&usg=AOvVaw25lN6TjyY2uszSImdhMejE">Privacy</a></li>
+            <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjr4u-y5ZfxAhVaJzQIHYtsBo4Q8qwCCBQ&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Fhl%3Den%26fg%3D1&usg=AOvVaw2d8Ahs2oc0jxVOgPfpr4Fe">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+        
     </footer>
 </body>
 
